@@ -68,3 +68,10 @@ cacheSolve <- function(x, ...) {
     inverse
     
 }
+
+
+## Use the following to test the code
+## v1 <- matrix(data = 10:13, nrow = 2, ncol = 2, byrow = FALSE, dimnames = NULL)
+## v2 <- makeCacheMatrix(v1)
+## cacheSolve(v2) 
+## cacheSolve(v2) 2nd execution will give a messsage "getting cached data"
