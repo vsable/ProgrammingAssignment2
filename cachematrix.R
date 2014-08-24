@@ -6,7 +6,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   
-  ## 
+  ## initialize the inverse matrix to NULL
   inverse  <- NULL
   
   ## setMatrix function caches the matrix object.
